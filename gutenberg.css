@@ -1,0 +1,23 @@
+/*
+  gutenberg.org/files/** 
+*/
+
+body {
+  margin: 5%;
+  background: #faebd0;
+  text-align: left;
+  line-height: 1.42;
+  text-rendering: optimizeLegibility;
+}
+
+p + p {
+  margin-top: 4rem;
+}
+
+p {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
