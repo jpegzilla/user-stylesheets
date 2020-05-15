@@ -1,0 +1,72 @@
+/*
+  news.ycombinator.com
+*/
+
+* {
+  box-sizing: border-box;
+  line-height: 1.42;
+}
+
+body {
+  background: #1e2026;
+  color: #fff;
+}
+
+br + br {
+  display: none;
+}
+
+#hnmain {
+  width: 60%;
+}
+
+.comment,
+.pagetop a {
+  font-family: "MS PMincho", "Lexend Deca", sans-serif;
+  font-size: 0.87rem;
+}
+
+.comhead {
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 0.7rem;
+}
+
+tr .athing.comtr {
+  border-left: 1px solid white;
+  background-color: #111;
+  padding: 0.5rem;
+  display: block;
+  color: #fff;
+}
+
+table {
+  background: transparent;
+}
+
+table .fatitem {
+  background: #ff660010;
+}
+
+table .fatitem .ind {
+  border-left: 1px solid white;
+}
+
+.c00,
+.c00 a:link,
+.hnmore a:link,
+a:visited,
+span.yclinks,
+td {
+  color: #fff;
+}
+
+tr + tr {
+  margin-top: 0.25rem;
+}
+
+span.yclinks a,
+form {
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+  color: #fff;
+}
