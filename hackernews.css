@@ -52,6 +52,28 @@ table .fatitem .ind {
   border-left: 1px solid white;
 }
 
+td .title {
+  color: white;
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+}
+
+td .subtext {
+  color: grey;
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+}
+
+textarea {
+  width: 500px;
+  background-color: #040404a0;
+  color: white;
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+  padding: 0.5rem;
+}
+
+input[type="submit"] {
+  font-family: "MS Gothic", "Lexend Deca", sans-serif;
+}
+
 .c00,
 .c00 a:link,
 .hnmore a:link,
